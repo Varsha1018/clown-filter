@@ -1,0 +1,26 @@
+body {
+    background-image: url("background.jpg");
+}
+
+#heading {
+    font-size: 25px;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: ani_name;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position:fixed;
+}
+
+@keyframes ani_name{
+   0% {box-shadow: 5px 5px 38px red;}
+    25% {box-shadow: 5px 5px 38px yellow;}
+    50% {box-shadow: 5px 5px 38px purple;}
+    75% {box-shadow: 5px 5px 38px green;}
+    100% {box-shadow: 5px 5px 38px blue;}
+}
